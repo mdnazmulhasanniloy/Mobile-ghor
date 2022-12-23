@@ -1,0 +1,46 @@
+[
+    {
+        "Admin": [
+            {
+                "linkName": "myOrder",
+                "NavName": "My Orders"
+            },
+            {
+                "linkName": "AllSellers",
+                "NavName": "All Sellers"
+            },
+            {
+                "linkName": "AllUser",
+                "NavName": "All User"
+            },
+            {
+                "linkName": "ReportedItem",
+                "NavName": "Reported Item"
+            }
+        ]
+    },
+    {
+        "Sellers": [
+            {
+                "linkName": "myProduct",
+                "NavName": "My Product"
+            },
+            {
+                "linkName": "myBuyers",
+                "NavName": "My Buyers"
+            },
+            {
+                "linkName": "addProduct",
+                "NavName": "Add Product"
+            }
+        ]
+    },
+    {
+        "Buyers": [
+            {
+                "linkName": "myOrder",
+                "NavName": "My Orders"
+            }
+        ]
+    }
+]

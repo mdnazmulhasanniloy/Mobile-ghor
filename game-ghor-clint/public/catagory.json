@@ -1,0 +1,26 @@
+[
+    {
+        "category_Name": "Iphone",
+        "img": "https://i.ibb.co/Rg29NB9/iphone-logo.png"
+    },
+    {
+        "category_Name": "Oppo",
+        "img": "https://i.ibb.co/x6pLvm7/Oppo-logo.png"
+    },
+    {
+        "category_Name": "Vivo",
+        "img": "https://i.ibb.co/1G6YN0m/Vivo-logo.png"
+    },
+    {
+        "category_Name": "Realme",
+        "img": "https://i.ibb.co/VJZHsTh/Realme-logo.png"
+    },
+    {
+        "category_Name": "Xiaomi",
+        "img": "https://i.ibb.co/3kRpyyN/xiaomi-logo.png"
+    },
+    {
+        "category_Name": "Samsung",
+        "img": "https://i.ibb.co/SNKyg0y/Samsung-logo.png"
+    }
+]
