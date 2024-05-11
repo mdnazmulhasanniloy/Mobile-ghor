@@ -1,0 +1,49 @@
+{
+  "name": "game-ghor-mvc-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+    "lint:fix": "eslint . --fix",
+    "dev": "tsc --watch",
+    "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "prettier:fix": "prettier --write .",
+    "lint-prettier": "npm run lint:check && npm run prettier:check",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "author": "MD Nazmul Hasan",
+  "license": "ISC",
+  "lint-staged": {
+    "src/**/*.ts": "npm run lint-prettier"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "husky": "^9.0.11",
+    "moment": "^2.30.1",
+    "mongodb": "^6.6.1",
+    "mongoose": "^8.3.4",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.11",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "http-status": "^1.7.4",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0",
+    "zod": "^3.23.8"
+  }
+}

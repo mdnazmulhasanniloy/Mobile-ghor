@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "E:\\Mobile-ghor\\game-ghor-mvc-server\\logs\\winston\\errors\\.b7ab00398eba6e5999d107f14a71102e99ece04e-audit.json",
+    "files": [
+        {
+            "date": 1715412342640,
+            "name": "E:\\Mobile-ghor\\game-ghor-mvc-server\\logs\\winston\\errors\\UMS-2024-11-05-13-error.log",
+            "hash": "c8f21596811ecf52bd0172b03f87df173e3c189a615b60dc7560f0bd206f651b"
+        }
+    ],
+    "hashType": "sha256"
+}
